@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,ol {
+    list-style-type: none;
+}
+nav {
+    background-color: #ddd;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    padding: 0 20px;
+    line-height: 60px;
+    font-family: 'Montserrat', sans-serif;
+    color: #444;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: block;
+    transition: all linear .3s;
+}
+nav ul li a:hover {
+    color: #fff;
+    background-color: tomato;
+}
